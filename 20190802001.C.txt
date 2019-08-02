@@ -1,0 +1,21 @@
+#include <iostream>
+#include<cstring>
+using namespace std;
+
+int main()
+{
+	
+class  Student{
+public:
+	Student(int id,char* name){
+		this->id= id;
+		this->name=name;
+	};
+	int id;
+	char* name;
+};
+   Student student1 = Student(2888,"zhangwei");
+   cout<<"Name: \n"<<student1.name;
+   cout<<"\r ID \r"<<student1.id;
+   return 0;
+}
